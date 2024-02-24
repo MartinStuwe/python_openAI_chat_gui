@@ -1,4 +1,6 @@
 import PySimpleGUI as sg
+import sys
+sys.path.append("/home/scifaipy/dev/python/openai")
 from gpt.main import ask_gpt
 
 
